@@ -9,4 +9,16 @@
         gap: 10px;
         margin-top: 10px;
     }
+
+    .banner-section {
+        flex-direction: column-reverse;
+    }
+
+    .text-container {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-image-container{
+        width: 100%;  
+    }
 }

@@ -19,6 +19,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+    padding: 10px;
 }
 
 .nav-container {
@@ -38,7 +39,7 @@ body {
 
 .special {
     color: rgb(223, 156, 193);
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .nav-item {
@@ -62,4 +63,71 @@ body {
     color: black;
     font-size: 1.2rem;
     font-weight: 800;
+}
+
+/* banner section */
+.banner-section {
+    max-width: 1600px;
+    margin: 0 auto;
+    min-height: 400px;
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(223, 170, 156);
+    border-radius: 20px;
+}
+
+.text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.banner-title {
+    background: linear-gradient(to bottom, blueviolet, rgb(223, 156, 193));
+    background-clip: text;
+    color: transparent;
+    font-size: 4rem;
+}
+
+.banner-image-container {
+    width: 50%;
+    padding: 30px;
+}
+
+.banner-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.text-container p,
+span {
+    font-size: 2.8rem;
+}
+
+#banner-des {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+}
+.fa-brands{
+    font-size: 3rem;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+}
+.banner-btn{
+    display: flex;
+    gap: 20px;
+}
+.btn-1{
+    padding: 10px 20px;
+    color:black;
+    border: 2px solid rgb(231, 27, 163);
+    border-radius: 10px;
 }
