@@ -18,7 +18,12 @@
         width: 100%;
         text-align: center;
     }
-    .banner-image-container{
-        width: 100%;  
+
+    .banner-image-container {
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
     }
 }
