@@ -1,0 +1,65 @@
+/* shared style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav styles */
+.header {
+    background-color: rgb(162, 73, 235);
+}
+
+.navigation {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-container {
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-container img {
+    width: 80px;
+}
+
+.nav-container h3 {
+    font-size: 1.2rem;
+}
+
+.special {
+    color: rgb(223, 156, 193);
+    font-weight: 900;
+}
+
+.nav-item {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.nav-item button {
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(223, 156, 193);
+    padding: 15px 30px;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
